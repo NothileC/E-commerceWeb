@@ -16,10 +16,6 @@
     cursor: pointer;
 }
 
-.sidebar ul li:hover {
-    background-color: #555;
-}
-
 .app {
     display: flex;
 }
