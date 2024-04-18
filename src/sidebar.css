@@ -1,0 +1,30 @@
+.sidebar {
+    width: 72px;
+    height: 992px;
+    background-color: #FFFFFF;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.sidebar ul li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background-color: #555;
+}
+
+.app {
+    display: flex;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+} 
