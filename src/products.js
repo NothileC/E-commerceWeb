@@ -1,7 +1,7 @@
 import product1 from './assets/Product-Image1.png';
 import product2 from './assets/Product-Image2.png';
 import product3 from './assets/Product-Image3.png';
-
+//product array
 export const PRODUCTS = [
     {
         id: 1,
