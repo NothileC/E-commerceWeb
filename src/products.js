@@ -7,6 +7,21 @@ import product6 from "./assets/p6.png";
 import product7 from "./assets/p7.png";
 import product8 from "./assets/p8.png";
 
+/* This code exports a constant named AppleStoreItems, which is an array 
+containing objects representing different products. Each product is defined 
+by properties such as id, productName, color, briefdescription, price, and productImage*/
+
+/*  
+Here's a breakdown of the properties for each product:
+
+- id: A unique identifier for the product.
+- productName: The name or title of the product.
+- color: The color variant or option for the product.
+- briefdescription: A brief description or summary of the product.
+- price: The price of the product.
+- productImage: The imported image file associated with the product.
+*/
+
 export const AppleStoreItems = [
   {
     id: 1,
