@@ -1,18 +1,20 @@
 import React from 'react';
 import Sidebar from './sidebar';
-import './App.css'; 
+import './App.css';
+import Itemview from './Itemview'; // Import the ItemView component
 
 const App = () => {
     return (
         <div className="app">
             <Sidebar />
+            {/* Render the ItemView component */}
+            <Itemview />
             {/* Add the rest of your app content here */}
             <div className="content">
-                <h1>Main Content</h1>
-                <p>This is the main content of your app.</p>
+                
             </div>
-        </div> 
+        </div>
     );
 };
 
-export default App;
+export default App; 

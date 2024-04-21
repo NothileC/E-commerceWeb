@@ -1,0 +1,61 @@
+.item-view {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.item-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('../src/fonts/Cabin/static/Cabin-Regular.ttf') format('truetype'); /* Adjust the file path as per your project structure */
+    /* Add more src lines for different font formats if needed */
+}
+
+/* Apply Cabin font to elements */
+body {
+    font-family: 'Cabin', sans-serif; /* Apply Cabin font to the entire body */
+}
+
+.item-description {
+    /* Styles for paragraph element */
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+}
+
+.item-title {
+    /* Styles for the h2 element */
+    width: 338px;
+    height: 74px;
+    gap: 0px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 61.04px;
+    font-weight: 700;
+    line-height: 74.16px;
+    text-align: left;
+}
+
+.item-subtitle {
+    /* Styles for the smaller text */
+    font-family: 'Cabin', sans-serif;
+    font-size: 31.25px;
+    font-weight: 500;
+    line-height: 37.97px;
+    text-align: left;
+    width: 147px;
+    height: 38px;
+    color: #1A1F1680; 
+}
+
+

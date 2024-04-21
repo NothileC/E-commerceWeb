@@ -18,7 +18,7 @@ const Sidebar = () => {
                 <li>
                 <img src="./img/shoppingbag.png" alt="Bag"/>
                 </li>
-            </ul>
+            </ul>  
         </div>
     );    
 };
