@@ -58,4 +58,26 @@ body {
     color: #1A1F1680; 
 }
 
+.star-rating {
+    width: 168px;
+    height: 24px;
+    padding: 0px 16px 0px 0px;
+    gap: 8px;
+    /* Add styles for the star rating image */
+}
 
+.item-price {
+    /* Styles for the price text */
+    font-family: 'Cabin', sans-serif;
+    font-size: 31.25px;
+    font-weight: 500;
+    line-height: 37.97px;
+    text-align: left;
+}
+
+.add-to-bag-button {
+    /* Position the button image */
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    left: 200px; /* Adjust as needed */
+}
