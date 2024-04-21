@@ -2,20 +2,23 @@ import React, { useState } from 'react';
 import './ShippingAddress.css';
 
 const ShippingAddress = () =>{
+    //state initialization for address component
     const [address, setAddress] = useState({
+        //object with properties set to empty strings
         firstName: '',
-        lastName: '',
-        street: '',
-        city: '',
-        state: '',
-        zipCode: '',
+        streetName: '',
+        cityName: '',
+        stateName: '',
         country: ''
     });
 
+
+    //event handler arrow function updates any changes in the input fields
     const handleChange = (e) => {
         setAddress({ ...address, [e.target.name]: e.target.value });
     };
 
+    //event handler arrow function, prevents default form submission behaviour and handle submit form which clears form upon submission
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(address); // Process form submission here
