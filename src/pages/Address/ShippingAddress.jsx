@@ -89,26 +89,31 @@ const ShippingAddress = () =>{
                     
                     <input
                         type="checkbox"
-                        className="default-input default"
+                        className="form-check-input default"
                         id="defaultAddress"
                         name="defaultAddress"
                         value={address.defaultAddresss}
                         onChange={handleChange}
-                    />  <label htmlFor="defaultAddress" className='default-label default'> Set this as your default adddress</label>
+                    />  <label htmlFor="defaultAddress" className='form-check-label default'> Save this as your default address</label>
                 
                 
               </div>
               <div className="cta">
-                <button type="submit" className="add-address" onClick={handleSubmit}>Add Address</button>
+                <div className="icon-card">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e303d761588a5262ba05adb37e3648464be83a3bdb74ddfdd37441f3c339ec2?" alt="" />
                 </div>
-                    <div className="row">
-                      <div className="col-6 text-start">
-                      <button type="button" className="btn btn-primary mb-3">Back</button>
+                <button type="submit" className="address" onClick={handleSubmit}>Add Address</button>
+                </div>
+                    <div className="information">
+                      <button type="button" className="btn-back">Back</button>
+                      <div className="secure-connection">
+                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca2b633c7b8fdad75937bd1a00ec582b64a9b9ab9326e9f0a139cee7f42d1c1e?" alt="" />
+                      <div className="btn-secure">Secure connection</div>
                    </div>
-                <div className="col-6 text-end">
-                    <button type="button" className="btn btn-primary mb-3">Secure connection</button>
-                </div>
-                </div>
+                  
+                  
+                   </div>
+                    
             </form>
             
         </div>

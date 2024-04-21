@@ -37,6 +37,7 @@ input{
     
 }
 .default{
+font-family: Cabin, sans-serif;
 width: Fill (612px)px;
 height: Hug (56px)px;
 padding: 16px 8px 16px 8px;
@@ -44,49 +45,70 @@ gap: 8px;
 opacity: 0px;
 
 }
-.default-input{
-width: 16px;
-height: 16px;
-gap: 0px;
-opacity: 0px;
-
-
-}
-
-.default-label{
-font-family: Cabin;
-font-size: 20px;
-font-weight: 400;
-line-height: 24.3px;
-text-align: left;
-
-}
-
 .cta{
-    width: Fill (612px)px;
-    height: Hug (72px)px;
-    padding: 16px 0px 0px 0px;
-    gap: 8px;
-    opacity: 0px;
-    
-
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--UI-Dark, #1a1f16);
+    display: flex;
+    font-size: 20px;
+    color: var(--Font-White, #fff);
+    font-weight: 500;
+    margin: 48px 16px 0;
+    padding: 8px 24px;
 }
-.cta button{
-    width: Fill (580px)px;
-    height: Hug (40px)px;
-    padding: 8px 24px 8px 24px;
+@media (max-width: 991px) {
+    .cta {
+      max-width: 100%;
+      margin: 40px 10px 0 0;
+      padding: 0 20px;
+    }
+  }
+  .icon-card{
+    display: flex;
     gap: 8px;
-    border-radius: 10px 0px 0px 0px;
-    opacity: 0px;
-    background: #1A1F16;
 
-    
+  }
+.address button{
+font-family: Cabin, sans-serif;
+border: none;
+background-color: #1a1f16;
 }
-.add-address{
-width: 108px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-color: white;
 
+.information{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    padding: 6px 0 6px 24px;
+}
+@media (max-width: 991px) {
+    .information {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-left: 20px;
+    }
+  }
+
+.btn-back{
+    color: var(--Font-Dark, #1a1f16);
+    font-family: Cabin, sans-serif;
+    text-decoration-line: underline;
+    margin: auto 0;
+    border: none;
+}
+.secure-connection{
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    color: var(--Font-Success, #02d693);
+}
+.btn-secure{
+    font-family: Cabin, sans-serif;
+    margin: auto 0;
+    color: #02d693;
 }
