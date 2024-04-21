@@ -1,0 +1,92 @@
+.container{
+    width: 1440px;
+    height: 1024px;
+    top: -529px;
+    left: 7379px;
+    border-radius: 16px;
+    background: #EDEDED;
+    ;
+}
+form{
+    width: 676px;
+    height: 834px;
+    top: 95px;
+    left: 382px;
+    border-radius: 15px;
+    padding: 32px;
+    gap: 16px;
+    background-color: white;
+}
+
+label{
+width: Hug (117px)px;
+height: Hug (19px)px;
+padding: 0px 8px 0px 8px;
+gap: 10px;
+opacity: 0px;
+
+}
+
+input{
+    width: 596px;
+    height: 56px;
+    border-radius: 13px;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 8px;
+    box-shadow: 0px 4px 16px 0px #1A1F1626;
+    
+}
+.default{
+width: Fill (612px)px;
+height: Hug (56px)px;
+padding: 16px 8px 16px 8px;
+gap: 8px;
+opacity: 0px;
+
+}
+.default-input{
+width: 16px;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+.default-label{
+font-family: Cabin;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.3px;
+text-align: left;
+
+}
+
+.cta{
+    width: Fill (612px)px;
+    height: Hug (72px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+    
+
+}
+.cta button{
+    width: Fill (580px)px;
+    height: Hug (40px)px;
+    padding: 8px 24px 8px 24px;
+    gap: 8px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #1A1F16;
+
+    
+}
+.add-address{
+width: 108px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+color: white;
+
+}
