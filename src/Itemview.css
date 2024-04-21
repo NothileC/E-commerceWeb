@@ -75,9 +75,18 @@ body {
     text-align: left;
 }
 
+
 .add-to-bag-button {
     /* Position the button image */
     position: absolute;
-    top: 0; /* Adjust as needed */
-    left: 200px; /* Adjust as needed */
+    bottom: 40px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.horizontal-line {
+    /* Layout styles for the horizontal line */
+    width: 100%; /* Occupy full width of the container */
+    height: auto; /* Hug content height */
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
 }
