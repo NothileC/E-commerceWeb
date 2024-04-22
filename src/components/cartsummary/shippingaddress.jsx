@@ -24,7 +24,7 @@ export const ShippingAddress = () => {
                 <div className="addressinfo-text">United States of America</div>
               </div>
               {/* Link to redirect to the root path */}
-              <Link to="/"><div className="change-btn">Change</div></Link>
+              <Link to="/address"><div className="change-btn">Change</div></Link>
             </div>
           </div>
         </div>

@@ -39,7 +39,7 @@ export const CartSummary = () => {
                 </div>
 
                 <div className="cartsummary-hr" />
-            <Link to="/" ><div className="placeorder-Btn">Place your order</div> </Link>    
+            <Link to="/paymentconfirm" ><div className="placeorder-Btn">Place your order</div> </Link>    
             </div>
 
             <Link to="/bag" >

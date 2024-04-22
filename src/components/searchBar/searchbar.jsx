@@ -11,14 +11,14 @@ const SearchBar = () => {
         <input
           id="searchQueryInput"
           type="text"
-          name="searchQueryInput"
+          
           placeholder="Apple Watch, Samsung S21, Macbook Pro, ..."
           className="searchInput"
         />
         <button
-          id="searchQuerySubmit"
+          
           type="submit"
-          name="searchQuerySubmit"
+          
           className="searchButton"
         >
 

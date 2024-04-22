@@ -51,7 +51,7 @@ export const PaymentMethod = () => {
             </div>
           </div>
 
-          <Link to="/"><div className="change-btn">Change</div></Link>
+          <Link to="/payment"><div className="change-btn">Change</div></Link>
 
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { AppleStoreContext } from "../context/AppleStoreContext";
 import AddtocartButton from "../../assets/icons/Addtocart-Button.png";
 
@@ -15,8 +16,10 @@ export const Product = (props) => {
   return (
 
     <div className="product">
+      <Link to="/item1">
+        <img src={productImage} />
+      </Link>
 
-      <img src={productImage} />
 
       <div className="description">
         <div className="productName">

@@ -9,6 +9,7 @@
     margin: 0 auto;
     margin-bottom: 30px;
     font-family: "Cabin", sans-serif;
+    margin-top: 20px;
 }
   
 .label {
@@ -56,6 +57,3 @@ background-color: white;
     outline: none;
   }
   
-  #searchQuerySubmit:hover {
-    cursor: pointer;
-  }

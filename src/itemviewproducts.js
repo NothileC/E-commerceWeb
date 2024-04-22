@@ -7,12 +7,12 @@ import product6 from "./assets/p6.png";
 import product7 from "./assets/p7.png";
 import product8 from "./assets/p8.png";
 
-export const AppleStoreItems = [
+export const ItemViewProducts = [
   {
     id: 1,
     productName: "Apple Watch",
     color: "Series 5 SE",
-    briefdescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam',
+    briefdescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.',
     price: 529.99,
     productImage: product1,
   },
