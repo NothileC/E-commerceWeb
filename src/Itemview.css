@@ -123,9 +123,8 @@ body {
     left: 20px;
     padding: 10px 20px;
     background-color: #ffffff;
-    border: 1px solid #000000;
-    border-radius: 5px;
     cursor: pointer;
+    border: none;
 }
 
 .back-button:hover {
