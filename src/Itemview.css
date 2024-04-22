@@ -90,3 +90,44 @@ body {
     position: absolute;
     bottom: 0; /* Position at the bottom */
 }
+
+.description-header {
+    /* Styles for the description header container */
+}
+
+.description-header-text {
+    /* Typography styles for the description header text */
+    font-family: 'Cabin', sans-serif;
+    font-size: 31.25px;
+    font-weight: 500;
+    line-height: 37.97px;
+    text-align: left;
+}
+
+.item-details {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.item-info {
+    margin-right: auto; /* Pushes the item-info to the right */
+}
+
+.item-image {
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #cccccc;
+}
