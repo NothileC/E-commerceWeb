@@ -11,12 +11,12 @@ const Itemview = ({ item }) => {
             </div>
             <div className="bottom-area">
                 <div className="item-details">
-                    <img src="../img/watch.png" alt="Apple Watch" className="item-image" />
+                    <img src="../img/rediphone.png" alt="Apple Watch" className="item-image" />
                     <div className="item-info">
-                        <h2 className="item-title">Apple Watch</h2>
-                        <h3 className="item-subtitle">SERIES 5 SE</h3>
+                        <h2 className="item-title">iPhone 11</h2>
+                        <h3 className="item-subtitle">Product RED</h3>
                         <img src="../img/therating.png" alt="5-star rating" className="star-rating"/>
-                        <p className="item-price">$529.99</p>
+                        <p className="item-price">$619.99</p>
                         <p className="short-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.</p>
                     </div>
                 </div>
