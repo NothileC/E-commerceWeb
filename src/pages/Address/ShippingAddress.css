@@ -45,34 +45,44 @@ gap: 8px;
 opacity: 0px;
 
 }
+.checkbox input{
+width: 12px;
+height: 12px;
+top: 2px;
+left: 2px;
+gap: 0px;
+border-radius: 1px 0px 0px 0px;
+opacity: 0px;
+background: #12805D;
+
+
+}
+
 .cta{
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: var(--UI-Dark, #1a1f16);
-    display: flex;
-    font-size: 20px;
-    color: var(--Font-White, #fff);
-    font-weight: 500;
-    margin: 48px 16px 0;
-    padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--UI-Dark, #1a1f16);
+  display: flex;
+  font-size: 20px;
+  color: var(--Font-White, #fff);
+  font-weight: 500;
+  margin: 48px 16px 0;
+  padding: 8px 24px;
 }
 @media (max-width: 991px) {
-    .cta {
-      max-width: 100%;
-      margin: 40px 10px 0 0;
-      padding: 0 20px;
-    }
+  .cta {
+    max-width: 100%;
+    margin: 40px 10px 0 0;
+    padding: 0 20px;
   }
-  .icon-card{
-    display: flex;
-    gap: 8px;
-
-  }
-.address button{
-font-family: Cabin, sans-serif;
-border: none;
-background-color: #1a1f16;
+}
+.address{
+  border: none;
+  background: none;
+  color: white;
+  
+ 
 }
 
 .information{
@@ -100,15 +110,25 @@ background-color: #1a1f16;
     text-decoration-line: underline;
     margin: auto 0;
     border: none;
+    color: #1A1F1680;
+    background: none;
+    
 }
 .secure-connection{
     justify-content: center;
     display: flex;
     gap: 8px;
     color: var(--Font-Success, #02d693);
+    margin-left: 3px;
 }
 .btn-secure{
     font-family: Cabin, sans-serif;
     margin: auto 0;
     color: #02d693;
+    font-size: small;
+    width: 123px;
+    height: 19px;
+    gap: 0px;
+   opacity: 0px;
+
 }

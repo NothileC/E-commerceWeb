@@ -89,7 +89,7 @@ const ShippingAddress = () =>{
                     
                     <input
                         type="checkbox"
-                        className="form-check-input default"
+                        className="form-check-input default checkbox"
                         id="defaultAddress"
                         name="defaultAddress"
                         value={address.defaultAddresss}
@@ -99,17 +99,16 @@ const ShippingAddress = () =>{
                 
               </div>
               <div className="cta">
-                <div className="icon-card">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e303d761588a5262ba05adb37e3648464be83a3bdb74ddfdd37441f3c339ec2?" alt="" />
-                </div>
                 <button type="submit" className="address" onClick={handleSubmit}>Add Address</button>
-                </div>
-                    <div className="information">
-                      <button type="button" className="btn-back">Back</button>
-                      <div className="secure-connection">
+              </div>
+
+
+              <div className="information">
+                <button type="button" className="btn-back">Back</button>
+                    <div className="secure-connection">
                       <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca2b633c7b8fdad75937bd1a00ec582b64a9b9ab9326e9f0a139cee7f42d1c1e?" alt="" />
-                      <div className="btn-secure">Secure connection</div>
-                   </div>
+                    <div className="btn-secure">Secure Connection</div>
+                </div>
                   
                   
                    </div>
