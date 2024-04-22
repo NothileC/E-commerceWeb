@@ -1,5 +1,6 @@
 import React from 'react';
 import './Addpayment.css';
+import { CreditCard } from 'phosphor-react';
 
 const CardList = ({ cards, setDefaultCard }) =>{
   return (
@@ -14,7 +15,7 @@ const CardList = ({ cards, setDefaultCard }) =>{
             className="form-check-input"
             checked={card.isDefault}
             onChange={() => setDefaultCard(index)}
-          /> <p>{card.cardHolder} ending in {card.cardNumber.slice(-4)}</p>
+          />  <CreditCard size={32} /> &nbsp; &nbsp;Mastercard ending in {card.cardNumber.slice(-4)}
         </div>
       ))}
       </div>
