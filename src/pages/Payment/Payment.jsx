@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CardForm from './CardForm';
 import CardList from './CardList';
+import './Addpayment.css';
 
 const Payment = () =>{
   const [cards, setCards] = useState([]);
@@ -22,9 +23,9 @@ const Payment = () =>{
 
   return (
     <div>
-      <h2>Select a Card</h2>
+      
       <CardList cards={cards} setDefaultCard={setDefaultCard} />
-      <h2>Add a New Card</h2>
+    
       <CardForm addCard={addCard} />
     </div>
   );

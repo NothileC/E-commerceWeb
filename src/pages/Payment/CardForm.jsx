@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Addpayment.css';
 
 const CardForm = ({ addCard }) =>{
   const [cardDetails, setCardDetails] = useState({
@@ -30,14 +31,16 @@ const CardForm = ({ addCard }) =>{
   };
 
   return (
+    <div className="container">
     <form onSubmit={handleSubmit}>
+      <header className='newCard'>Add A New Card</header>
       {/* Inputs for cardHolder, cardNumber, expiryDate, cvc */}
       <div className="mb-3">
-        <label htmlFor="cardHolder" className="form-label">Name</label>
+        <label htmlFor="cardHolder" className="form-label">Cardholder Name</label>
         <input
             type="text"
             className="form-control"
-            placeholder='Cardholder Name'
+            placeholder="John Maker"
             id="cardHolder"
             name="cardHolder"
             value={cardDetails.cardHolder}
@@ -47,6 +50,7 @@ const CardForm = ({ addCard }) =>{
         <input
             type="number"
             className="form-control"
+            placeholder="5126-5987-2214-7621"
             id="cardNumber"
             name="cardNumber"
             value={cardDetails.cardNumber}
@@ -56,6 +60,7 @@ const CardForm = ({ addCard }) =>{
         <input
             type="text"
             className="form-control"
+            placeholder="MM/YYYY"
             id="expiryDate"
             name="expiryDate"
             value={cardDetails.expiryDate}
@@ -65,6 +70,7 @@ const CardForm = ({ addCard }) =>{
         <input
             type="number"
             className="form-control"
+            placeholder="123"
             id="cvc"
             name="cvc"
             value={cardDetails.cvc}
@@ -73,26 +79,30 @@ const CardForm = ({ addCard }) =>{
         <input
           type="checkbox"
           id="defaultCheckbox"
+          className="form-check-input"
           name="isDefault"
           checked={cardDetails.isDefault}
           onChange={handleChange}
         />
-        <label htmlFor="defaultCheckbox">Save this as your default payment method</label>
+        <label htmlFor="defaultCheckbox" className="form-check-label">Save this as your default payment method</label>
       </div>
-      <button type="submit" className="btn btn-primary">Add Payment Method</button>
-      
+
+      <div className="cta">
+       <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e303d761588a5262ba05adb37e3648464be83a3bdb74ddfdd37441f3c339ec2?" alt="" />
+       <button type="submit" className="address">Add Payment Method</button>
+      </div>
       <div className="information">
-                      <button type="button" className="btn-back">Back</button>
-                      <div className="secure-connection">
-                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca2b633c7b8fdad75937bd1a00ec582b64a9b9ab9326e9f0a139cee7f42d1c1e?" alt="" />
-                      <div className="btn-secure">Secure connection</div>
-                   </div>
-                   </div>
+          <button type="button" className="btn-back">Back</button>
+          <div className="secure-connection">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca2b633c7b8fdad75937bd1a00ec582b64a9b9ab9326e9f0a139cee7f42d1c1e?" alt="" />
+          <div className="btn-secure">Secure Connection</div>
+        </div>
+        </div>
 
 
 
     </form>
-
+</div>
   );
 }
 
