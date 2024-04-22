@@ -79,12 +79,12 @@ const CardForm = ({ addCard }) =>{
         <input
           type="checkbox"
           id="defaultCheckbox"
-          className="form-check-input"
+          className="form-check-input default"
           name="isDefault"
           checked={cardDetails.isDefault}
           onChange={handleChange}
         />
-        <label htmlFor="defaultCheckbox" className="form-check-label">Save this as your default payment method</label>
+        <label htmlFor="defaultCheckbox" className="form-check-label default">Save this as your default payment method</label>
       </div>
 
       <div className="cta">

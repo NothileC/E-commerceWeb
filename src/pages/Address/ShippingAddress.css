@@ -44,8 +44,16 @@ padding: 16px 8px 16px 8px;
 gap: 8px;
 opacity: 0px;
 
+
 }
-.checkbox input{
+ .default{
+ 
+height: 16px;
+gap: 0px;
+opacity: 0px;
+
+}
+.default input{
 width: 12px;
 height: 12px;
 top: 2px;

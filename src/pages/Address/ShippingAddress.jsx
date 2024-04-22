@@ -89,7 +89,7 @@ const ShippingAddress = () =>{
                     
                     <input
                         type="checkbox"
-                        className="form-check-input default checkbox"
+                        className="form-check-input default "
                         id="defaultAddress"
                         name="defaultAddress"
                         value={address.defaultAddresss}
