@@ -1,13 +1,9 @@
-.container{
-    width: 1440px;
-    height: 1024px;
-    top: -529px;
-    left: 7379px;
-    border-radius: 16px;
-    background: #EDEDED;
-    
-}
-form{
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+.paymentform {
+  font-family: "Cabin", sans-serif;
     width: 676px;
     height: 834px;
     top: 95px;
@@ -18,7 +14,8 @@ form{
     background-color: white;
 }
 
-label{
+.paymentform-label label{
+  font-family: "Cabin", sans-serif;
 width: Hug (117px)px;
 height: Hug (19px)px;
 padding: 0px 8px 0px 8px;
@@ -27,7 +24,8 @@ opacity: 0px;
 
 }
 
- input{
+.form-control {
+  font-family: "Cabin", sans-serif;
     width: 596px;
     height: 56px;
     border-radius: 13px;
@@ -36,6 +34,8 @@ opacity: 0px;
     box-shadow: 0px 4px 16px 0px #1A1F1626;
     
 }
+
+
 .default{
 font-family: Cabin, sans-serif;
 width: Fill (612px)px;
@@ -67,6 +67,7 @@ background: #12805D;
 }
 
 .cta{
+  font-family: "Cabin", sans-serif;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -80,6 +81,7 @@ background: #12805D;
 }
 @media (max-width: 991px) {
   .cta {
+    font-family: "Cabin", sans-serif;
     max-width: 100%;
     margin: 40px 10px 0 0;
     padding: 0 20px;
@@ -90,11 +92,10 @@ background: #12805D;
   border: none;
   background: none;
   color: white;
-  
- 
 }
 
 .information{
+  font-family: "Cabin", sans-serif;
     justify-content: space-between;
     display: flex;
     margin-top: 32px;
@@ -114,6 +115,7 @@ background: #12805D;
   }
 
 .btn-back{
+  font-family: "Cabin", sans-serif;
     color: var(--Font-Dark, #1a1f16);
     font-family: Cabin, sans-serif;
     text-decoration-line: underline;
@@ -140,4 +142,23 @@ background: #12805D;
     gap: 0px;
    opacity: 0px;
 
+}
+
+.card-container{
+  border-radius: 33px;
+  background: #EDEDED;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bttnback{
+  font-size: 24px;
+  color: #424242;
+}
+
+#defaultAddress{
+  width: 20px;
 }

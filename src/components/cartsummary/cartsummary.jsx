@@ -7,6 +7,10 @@ export const CartSummary = () => {
     const { getTotalCartAmount } = useContext(AppleStoreContext);
     const totalAmount = getTotalCartAmount();
 
+    /*Additional Costs */
+    let itemsAmount = 0;
+    itemsAmount = totalAmount - (85 + 20 + 53.21);
+
     return (
         <div>
             <div className="cartsummary-div">
@@ -14,7 +18,7 @@ export const CartSummary = () => {
 
                 <div className="sub-div">
                     <div className="cart-subheading">Items:</div>
-                    <div className="price-cart">$ {totalAmount} </div>
+                    <div className="price-cart">$ {itemsAmount} </div>
                 </div>
 
                 <div className="sub-div">
@@ -29,13 +33,13 @@ export const CartSummary = () => {
 
                 <div className="sub-div">
                     <div className="cart-subheading">Gift Card:</div>
-                    <div className="price-cart">$ 0.00</div>
+                    <div className="price-cart">$ 53.21</div>
                 </div>
 
                 <div className="cartsummary-hr" />
                 <div className="subdiv">
                     <div className="cart-subheading">Order Total:</div>
-                    <div className="price-cart">$ {totalAmount + 85 + 20}</div>
+                    <div className="price-cart">$ {totalAmount}</div>
                 </div>
 
                 <div className="cartsummary-hr" />
