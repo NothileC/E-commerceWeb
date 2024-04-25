@@ -1,3 +1,5 @@
+
+// Import images for product items
 import product1 from "./assets/p1.png";
 import product2 from "./assets/p2.png";
 import product3 from "./assets/p3.png";
@@ -7,6 +9,7 @@ import product6 from "./assets/p6.png";
 import product7 from "./assets/p7.png";
 import product8 from "./assets/p8.png";
 
+// Export Product List
 export const AppleStoreItems = [
   {
     id: 1,
